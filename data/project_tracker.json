@@ -1,0 +1,29 @@
+{
+    "Alex": {
+        "id": 1,
+        "name": "Alex",
+        "email": "alex@example.com",
+        "projects": [
+            {
+                "id": 1,
+                "title": "CLI Tool",
+                "description": "Build project tracker",
+                "due_date": "2026-12-31",
+                "tasks": [
+                    {
+                        "id": 1,
+                        "title": "Implement add-task command",
+                        "status": "Completed",
+                        "assigned_to": "Alex"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Add AI summary feature",
+                        "status": "Pending",
+                        "assigned_to": "Alex"
+                    }
+                ]
+            }
+        ]
+    }
+}
